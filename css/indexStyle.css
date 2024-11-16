@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Sixtyfour+Convergence&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Geist:wght@100..900&family=Sixtyfour+Convergence&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #ececec;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul a {
+  font-family: "Anton", sans-serif;
+  text-decoration: none;
+  color: #000;
+  padding-right: 100px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  background-color: #ffd415;
+  padding: 36px 55px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.header_home {
+  color: #d5372d;
+}
+
+main {
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 100px;
+}
+
+main img {
+  border-radius: 100px 0px 0px 100px;
+  height: 500px;
+  margin-right: 30px;
+}
+
+.main_text h2 {
+  font-size: 48px;
+  margin-bottom: 56px;
+}
+
+.main_text p {
+  font-size: 36px;
+  margin-bottom: 56px;
+}
+
+footer {
+  background-color: #201d48;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 26px 40px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 36px;
+}
+
+.socials img {
+  margin-right: 20px;
+}
+
+.main_text a {
+  background-color: #282828;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 40px;
+  font-size: 36px;
+  border-radius: 100px;
+}
+
+.main_text a:hover {
+  background-color: #4c4c4c;
+  font-size: 40px;
+}
